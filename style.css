@@ -1,0 +1,115 @@
+*, body, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#2A2E41 ;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+    display: none;
+}
+
+.heading{
+    text-align: center;
+    margin: 70px auto 0px auto;
+    text-shadow: 2px 2px 2px black;
+}
+
+#image-container{
+      width: 80vw;
+      margin: 20px auto;
+      box-shadow: 5px 5px 5px black;
+}
+#image-container img{
+    height: 350px;
+    object-fit: cover;
+}
+#container{
+     width: 80vw;
+}
+#title{
+    margin: 20px auto 20px auto;
+    max-width: 400px;
+    text-shadow: 1px 1px 1px black;
+}
+#card{
+    background-color: hsl(231, 16%, 32%);
+    margin: 50px;
+    box-shadow: 10px 10px 10px black;
+    text-shadow: 1px 1px 1px black;
+}
+a{
+        color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px black;
+}
+a:hover{
+    color:yellow;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type:none;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    gap: 30px;
+}
+li{
+    font-size: 1.5em; 
+}
+.button{
+    margin: 0px auto 20px auto;
+    display: flex;
+    font-size: 1.5em;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+footer{
+    border-top: 4px solid #1D202D;
+    margin: 30px auto 20px auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 10px 0px;
+}
+.social-link a{
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+}
+.social-link a:hover{
+    color: white;
+}
+footer p{
+    text-shadow: 2px 2px 2px black;
+    margin: 10px auto -5px auto;
+}
+@media screen and (min-width:700px){
+    nav ul{
+        justify-content: flex-end;
+        gap: 30px;
+    }
+    .logo{
+        display:flex;
+        width: 350px;
+        margin: 25px;
+        border-radius: 15%;
+       border: 10px solid rgba(252, 252, 22, 0.959);
+align-items: center;
+       justify-content: center;
+    }
+    .logo:hover{
+        border: 10px solid white;
+    }
+}
