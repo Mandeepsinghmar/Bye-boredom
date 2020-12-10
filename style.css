@@ -20,13 +20,13 @@ header{
 .heading{
     text-align: center;
     margin: 70px auto 0px auto;
-    text-shadow: 2px 2px 2px black;
+    /* text-shadow: 2px 2px 2px black; */
 }
 
 
 #title{
     margin: 20px auto 20px auto;
-    text-shadow: 1px 1px 1px black;
+    /* text-shadow: 1px 1px 1px black; */
 }
 
 #card{
@@ -34,7 +34,10 @@ header{
     background-color: hsl(231, 16%, 32%);
     margin: 50px auto;
     box-shadow: 10px 10px 10px black;
-    text-shadow: 1px 1px 1px black;
+    /* text-shadow: 1px 1px 1px black; */
+}
+#card:hover{
+    border: 15px solid blue;
 }
 .card-body{
     background-color: #fff;
@@ -47,12 +50,13 @@ a{
         color: white;
     font-weight: 600;
     text-decoration: none;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 0px 1px 1px #000;
 }
 a:hover{
-    color:yellow;
+    color:blue;
     text-decoration: none;
 }
+
 
 nav ul{
     list-style-type:none;
@@ -70,8 +74,9 @@ li{
     display: flex;
     font-size: 1.5em;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px #1D202D;
 }
+
 footer{
     border-top: 4px solid #1D202D;
     margin: 30px auto 20px auto;
@@ -82,14 +87,14 @@ footer{
     padding: 20px 0px 10px 0px;
 }
 .social-link a{
-    color: yellow;
-    text-shadow: 2px 2px 2px black;
+    color: white;
+    box-shadow: 2px 2px 2px #2a2a2a;
 }
 .social-link a:hover{
-    color: white;
+    color: blue;
 }
 footer p{
-    text-shadow: 2px 2px 2px black;
+    /* text-shadow: 2px 2px 2px #000; */
     margin: 10px auto -5px auto;
 }
 @media screen and (min-width:700px){
@@ -102,7 +107,7 @@ footer p{
         width: 350px;
         margin: 25px;
         border-radius: 15%;
-       border: 10px solid rgba(252, 252, 22, 0.959);
+       border: 10px solid blue;
 align-items: center;
        justify-content: center;
     }
