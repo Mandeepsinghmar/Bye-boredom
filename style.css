@@ -128,11 +128,11 @@ footer p{
         width: 350px;
         margin: 25px;
         border-radius: 15%;
-       border: 10px solid blue;
+       border: 10px solid white;
 align-items: center;
        justify-content: center;
     }
     .logo:hover{
-        border: 10px solid white;
+        border: 10px solid blue;
     }
 }
