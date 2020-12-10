@@ -32,14 +32,15 @@ header{
 
 #card{
     width: 80vw;
+    height: 500px;
     background-color: hsl(231, 16%, 32%);
     margin: 50px auto;
     box-shadow: 10px 10px 10px black;
-    border: 15px solid blue;
+    /* border: 15px solid blue; */
 }
 
 #card:hover{
-    border: 15px solid #fff;
+    /* border: 15px solid #fff; */
 }
 .card-body{
     background-color: #fff;
@@ -47,6 +48,10 @@ header{
     text-align:center;
     border-radius: 2px;
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 a{
         color: white;
@@ -99,6 +104,20 @@ footer p{
     /* text-shadow: 2px 2px 2px #000; */
     margin: 10px auto -5px auto;
 }
+
+@media screen and (min-width:550px){
+    #card{
+        height:450px;
+    }
+}
+
+@media screen and (min-width:900px){
+    #card{
+        height:400px;
+    }
+}
+
+
 @media screen and (min-width:700px){
     nav ul{
         justify-content: flex-end;
