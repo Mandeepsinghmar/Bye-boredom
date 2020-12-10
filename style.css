@@ -9,12 +9,24 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 
 }
-.logo{
+
+/* .logo{
     display: none;
+} */
+
+.logo{
+    /* display:flex; */
+    width: 350px;
+    margin: 25px;
+    border-radius: 15%;
+   border: 10px solid white;
+/* align-items: center;
+   justify-content: center; */
 }
 
 .heading{
@@ -22,6 +34,15 @@ header{
     margin: 70px auto 0px auto;
     /* text-shadow: 2px 2px 2px black; */
 }
+.heading h1 {
+     background-color: #fff;
+     margin: auto;
+     color: #1D202D;
+     max-width: max-content;
+     border-radius: 2px;
+     padding: 0.5rem;
+     margin-bottom:0.5rem;
+ }
 
 
 #title{
@@ -118,20 +139,33 @@ footer p{
 }
 
 
-@media screen and (min-width:700px){
+@media screen and (min-width:780px){
     nav ul{
         justify-content: flex-end;
         gap: 30px;
+     
     }
+
+
     .logo{
         display:flex;
         width: 350px;
         margin: 25px;
         border-radius: 15%;
        border: 10px solid white;
-align-items: center;
-       justify-content: center;
+       flex-direction: row;
+
+       justify-content: flex-start;
+  
     }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+    }
+
     .logo:hover{
         border: 10px solid blue;
     }
