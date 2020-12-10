@@ -23,24 +23,15 @@ header{
     text-shadow: 2px 2px 2px black;
 }
 
-#image-container{
-      width: 80vw;
-      margin: 20px auto;
-      box-shadow: 5px 5px 5px black;
-}
-#image-container img{
-    height: 350px;
-    object-fit: cover;
-}
-#container{
-     width: 80vw;
-}
+
 #title{
     margin: 20px auto 20px auto;
-    max-width: 400px;
     text-shadow: 1px 1px 1px black;
 }
+
 #card{
+    width: 80vw;
+    height: 50vh;
     background-color: hsl(231, 16%, 32%);
     margin: 50px;
     box-shadow: 10px 10px 10px black;
