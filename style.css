@@ -34,11 +34,9 @@ header{
     background-color: hsl(231, 16%, 32%);
     margin: 50px auto;
     box-shadow: 10px 10px 10px black;
-    /* text-shadow: 1px 1px 1px black; */
-}
-#card:hover{
     border: 15px solid blue;
 }
+
 .card-body{
     background-color: #fff;
     color:#2A2E41;
