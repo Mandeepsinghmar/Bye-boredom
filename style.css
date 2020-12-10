@@ -38,6 +38,9 @@ header{
     border: 15px solid blue;
 }
 
+#card:hover{
+    border: 15px solid #fff;
+}
 .card-body{
     background-color: #fff;
     color:#2A2E41;
